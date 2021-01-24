@@ -16,6 +16,7 @@
 
    margin-bottom: 30px;
    max-width: 450px;
+  
 }
 
 .advantages-list-item:last-child{
@@ -48,19 +49,23 @@
 
 .advantages-icon{
     text-align: center;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    
+    align-items: center;
 
     width: 450px;
     height: 120px;
 
     margin-bottom: 30px;
-    background: var(--filters-color);
+    background: var(--filters-color);  
     border-radius: 4px;
 }
 
 .advantages-list-icon{
     width: 70px;
     height: 70px;
-    
 }
 }
 
@@ -87,7 +92,8 @@
 
        flex-basis: calc(100% / 2 - var(--card-set-gap));
        margin-left: var(--card-set-gap);
-       margin-top: var(--card-set-gap);   
+       margin-top: var(--card-set-gap);
+   
     }
 
     .advantages-list-item:first-child{
