@@ -45,11 +45,14 @@
     
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 30px;
 
     border: 1px solid var(--portfolio-border-color);
 }
 
-
+.products-types-list-item:last-child{
+    margin-bottom: 0px;
+}
 
 .products-card-content{
     padding: 20px 24px 24px 20px;
@@ -147,6 +150,8 @@ overflow: hidden;
         flex-basis: calc(100% / 2 - var(--card-set-gap));
         margin-left: var(--card-set-gap);
         margin-top: var(--card-set-gap);
+
+        margin-bottom: 0px;
     
         border: 1px solid var(--portfolio-border-color);
     } 
