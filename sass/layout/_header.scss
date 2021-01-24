@@ -106,16 +106,6 @@
     }
 }
 
-.site-nav-list-item{
-    align-items: center;
-    list-style-type: none;
-    margin-bottom: 40px;
-}
-
-.site-nav-list-item:last-child{
-    margin-bottom: 60px;
-}
-
 .site-nav-list-link {
     font-family: var(--main-font);
     font-weight: 500;
@@ -131,7 +121,7 @@
 
     position: relative;
 
-    display: block;
+    display: inline-block;
 
     &:hover, 
     &:focus{
@@ -172,6 +162,16 @@ left: 0%;
 display: block;
 
 }
+.site-nav-list-item{
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.site-nav-list-item:last-child{
+    margin-bottom: 60px;
+}
+
 
 .logo-web{
     font-family: var(--second-font);
